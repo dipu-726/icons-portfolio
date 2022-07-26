@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { Close } from "icons-lib/dist/index.esm.js";
+import { Toolbox } from "icons-lib/dist/index.esm.js";
+import { News } from "icons-lib/dist/index.esm.js";
+import { Share } from "icons-lib/dist/index.esm.js";
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Close height="100px" width="100px" /> 
+      <Toolbox height="100px" width="100px" /> 
+      <News height="100px" width="100px" /> 
+      <Share height="100px" width="100px" /> 
     </div>
   );
 }
